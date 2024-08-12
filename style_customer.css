@@ -1,9 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffe6f0; /* Background pink */
+    background-color: #ffe6f0;
     color: #333;
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .container {
@@ -11,27 +14,48 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    max-width: 500px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 400px; /* Setel lebar maksimum container */
+    text-align: center;
+}
+
+.logo {
+    max-width: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.shop-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e91e63;
+    margin-bottom: 20px;
 }
 
 h2 {
-    color: #e91e63; /* Pink */
+    color: #e91e63;
+    margin-bottom: 15px;
 }
 
 form {
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Pusatkan konten form */
+    width: 100%;
 }
 
 label {
     display: block;
     margin-bottom: 8px;
-    color: #e91e63; /* Pink */
+    color: #e91e63;
+    text-align: center;
 }
 
 input[type="text"],
 input[type="tel"] {
-    width: 100%;
+    width: 100%; /* Pastikan lebar input sesuai container */
+    max-width: 300px; /* Setel lebar maksimum untuk input */
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
@@ -41,40 +65,16 @@ input[type="tel"] {
 }
 
 button {
-    background-color: #e91e63; /* Pink */
+    background-color: #e91e63;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    width: 100%; /* Sesuaikan lebar button dengan container */
 }
 
 button:hover {
-    background-color: #d81b60; /* Darker pink */
-}
-
-footer {
-    background-color: #e91e63; /* Pink */
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 7px;
-}
-
-.logo {
-    max-width: 100px;
-    margin: 0 auto 10px;
-    border-radius: 50%;
-    border: 3px solid #fff;
-}
-
-.shop-name {
-    font-size: 24px;
-    font-weight: bold;
-    color: #e91e63; /* Pink */
-    margin-bottom: 20px;
+    background-color: #d81b60;
 }
