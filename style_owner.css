@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #e91e63;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #e91e63;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center; /* Teks dalam input field akan berada di tengah */
+}
+
+button {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #d81b60;
+}
+
+#pesan {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fce4ec;
+    border: 1px solid #e91e63;
+    border-radius: 5px;
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.logo {
+    max-width: 100px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.shop-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e91e63;
+    margin-bottom: 20px;
+}

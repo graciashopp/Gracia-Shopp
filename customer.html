@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pesanan Pelanggan</title>
+    <link rel="stylesheet" href="style_customer.css">
+</head>
+<body>
+    <div class="container">
+        <img src="gracia'shopp_logo1.jpg" alt="Logo GraciaShop" class="logo">
+        <div class="shop-name">Gracia'Shopp</div>
+        <h2>Form Pesanan Pelanggan</h2>
+        <form id="formCustomer">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="alamat">Alamat Lengkap:</label>
+            <input type="text" id="alamat" name="alamat" required>
+
+            <label for="telp">No Telp/WhatsApp:</label>
+            <input type="tel" id="telp" name="telp" value="+62" required>
+
+            <button type="button" onclick="sendOrder()">Buat Pesanan</button>
+        </form>
+    </div>
+    <script src="script_customer.js"></script>
+</body>
+</html>

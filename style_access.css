@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.shop-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #e91e63;
+    margin-bottom: 15px;
+}
+
+form {
+    width: 100%; /* Lebar form sesuai dengan container */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #e91e63;
+    text-align: center;
+}
+
+input[type="password"] {
+    width: 80%; /* Lebar input field lebih kecil agar tidak terlalu lebar */
+    padding: 10px;
+    margin: 0 auto 20px; /* Margin otomatis di kanan dan kiri untuk center */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    display: block; /* Pastikan input berada di tengah */
+}
+
+button {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Lebar tombol sama dengan form */
+    text-align: center;
+}
+
+button:hover {
+    background-color: #d81b60;
+}

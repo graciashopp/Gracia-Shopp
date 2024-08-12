@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Membuat tampilan vertikal center */
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px; /* Mengurangi padding */
+    width: 80%; /* Mengurangi ukuran maksimum box */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+}
+
+.logo {
+    max-width: 80px; /* Mengurangi ukuran logo */
+    margin: 20 auto 10px;
+    border-radius: 50%; /* Membuat logo menjadi bundar */
+}
+
+.shop-name {
+    font-size: 40px;
+    font-weight: bold;
+    color: #e91e63;
+    margin-bottom: 40px; /* Mengurangi margin bawah */
+}
+
+h2 {
+    color: #e91e63;
+    margin-bottom: 15px; /* Mengurangi margin bawah */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px; /* Mengurangi margin bawah */
+}
+
+ul li a {
+    display: block;
+    background-color: #e91e63;
+    color: #fff;
+    padding: 8px; /* Mengurangi padding */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ul li a:hover {
+    background-color: #d81b60;
+}
+
+footer {
+    background-color: #e91e63;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 7px;
+}

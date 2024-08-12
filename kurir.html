@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pesan COD (Kurir)</title>
+    <link rel="stylesheet" href="style_kurir.css">
+</head>
+<body>
+    <div class="container">
+        <img src="gracia'shopp_logo1.jpg" alt="Logo GraciaShop" class="logo">
+        <div class="shop-name">Gracia'Shopp</div>
+        <h2>Form Pengiriman Pesan COD (Kurir)</h2>
+        <form id="formKurir">
+            <label for="nama">Nama Pelanggan:</label>
+            <input type="text" id="nama" name="nama">
+
+            <label for="alamat">Alamat:</label>
+            <input type="text" id="alamat" name="alamat">
+
+            <label for="keterangan">Keterangan (Alamat Spesifik):</label>
+            <input type="text" id="keterangan" name="keterangan">
+
+            <label for="harga">Harga Barang (Rp):</label>
+            <input type="text" id="harga" name="harga">
+
+            <label for="wa">Nomor WhatsApp Customer:</label>
+            <input type="text" id="wa" name="wa" placeholder="Contoh: 6281234567890">
+
+            <button type="button" onclick="generateMessage()">Buat Pesan</button>
+        </form>
+
+        <h3>Deskripsi pesan:</h3>
+        <div id="pesan"></div>
+        <br>
+        <button id="whatsappLink" style="display:none;" onclick="openWhatsApp()">Kirim ke Pelanggan</button>
+    </div>
+    
+    <script src="script_kurir.js"></script>
+
+</body>
+</html>
