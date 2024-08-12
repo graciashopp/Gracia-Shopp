@@ -33,7 +33,7 @@ function sendOrder() {
     var pesan = `*Nama:* ${nama}\n*Alamat:* ${alamat}\n*No Telp/WhatsApp:* ${telp}`;
     var whatsappLink = `https://wa.me/6285280596278?text=${encodeURIComponent(pesan)}`;
     
-    alert('Anda so ba pesan, berarti siap mobayar. Terimakasih...');
+    alert('Berani ba pesan berarti siap bayar, Terimakasih...');
     window.open(whatsappLink, '_blank');
 
     document.getElementById("formCustomer").reset();
