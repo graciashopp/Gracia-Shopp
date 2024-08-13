@@ -27,6 +27,7 @@ body {
 }
 
 .shop-name {
+    font-family: 'Great Vibes', cursive;
     font-size: 24px;
     font-weight: bold;
     color: #e91e63;
@@ -78,3 +79,7 @@ button {
 button:hover {
     background-color: #d81b60;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
