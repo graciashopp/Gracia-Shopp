@@ -74,8 +74,12 @@ button:hover {
 }
 
 .shop-name {
+    font-family: 'Great Vibes', cursive;
     font-size: 24px;
     font-weight: bold;
     color: #e91e63;
     margin-bottom: 20px;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
