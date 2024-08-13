@@ -25,7 +25,9 @@ body {
     border-radius: 50%; /* Membuat logo menjadi bundar */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 .shop-name {
+    font-family: 'Great Vibes', cursive;
     font-size: 40px;
     font-weight: bold;
     color: #e91e63;
