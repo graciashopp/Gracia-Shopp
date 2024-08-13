@@ -13,13 +13,13 @@
         <h2>Mohon isi data diri dengan benar:</h2>
         <form id="formCustomer">
             <label for="nama">Nama Lengkap:</label>
-            <input type="text" id="nama" name="nama" required>
+            <input type="text" id="nama" name="nama" placeholder="Nama lengkap (Nama Facebook)" required>
 
             <label for="alamat">Alamat Lengkap:</label>
-            <input type="text" id="alamat" name="alamat" required>
+            <input type="text" id="alamat" name="alamat" placeholder="Desa, jalan/lorong, detail rumah dll" required>
 
             <label for="telp">No Telp/WhatsApp Aktif:</label>
-            <input type="tel" id="telp" name="telp" value="+62" required>
+            <input type="tel" id="telp" name="telp" value="+62" placeholder="Masukkan nomor yg bisa dihubungi" required>
 
             <button type="button" onclick="sendOrder()">Buat Pesanan (WhatsApp)</button>
         </form>
